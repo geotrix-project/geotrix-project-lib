@@ -1,0 +1,33 @@
+{
+  "name": "geotrix-project-lib",
+  "version": "1.0.0",
+  "description": "Library to solve Analytic Geometry problems with Step-by-Step solutions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geotrix-project/geotrix-project-lib.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geotrix-project/geotrix-project-lib/issues"
+  },
+  "homepage": "https://github.com/geotrix-project/geotrix-project-lib#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "files": [
+    "lib /**/*"
+  ],
+  "dependencies": {
+    "nerdamer": "^1.0.4"
+  }
+}
